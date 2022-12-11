@@ -13,4 +13,5 @@ export function exam() {
   add5(9); // 14
 
   addMaker(6)(10); // 16
+  addMaker(21)(10); // 31
 }
