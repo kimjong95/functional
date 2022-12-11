@@ -10,7 +10,7 @@ export function exam() {
   const add5 = addMaker(5);
 
   add5(4); // 9
-  add5(9); // 14
+  add5(10); // 15
 
   addMaker(6)(10); // 16
   addMaker(21)(10); // 31
