@@ -1,10 +1,10 @@
+import { exam } from "./1_함수형_자바스크립트_소개/exam";
+
 // Require the framework and instantiate it
-const fastify = require("fastify")({ logger: true });
+const fastify = require("fastify")({ logger: false });
 
 // Declare a route
-fastify.get("/", async (request: any, reply: any) => {
-  return { hello: "world" };
-});
+exam();
 
 // Run the server!
 const start = async () => {
